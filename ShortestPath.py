@@ -18,6 +18,7 @@ def dijkstra(graph, start):
                 heapq.heappush(heap, (distance, neighbor))
     
     return distances
+    #example usage
 graph = {
     'A': {'B': 2, 'C': 4},
     'B': {'A': 2, 'D': 3},
