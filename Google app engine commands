@@ -1,0 +1,35 @@
+Welcome to Cloud Shell! Type "help" to get started.
+Your Cloud Platform project in this session is set to stately-voltage-422917-m2.
+Use “gcloud config set project [PROJECT_ID]” to change to a different project.
+sakshishelar110@cloudshell:~ (stately-voltage-422917-m2)$ git clone https://github.com/ahermonika169/lp--2.git
+Cloning into 'lp--2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+sakshishelar110@cloudshell:~ (stately-voltage-422917-m2)$ ls
+lp--2  README-cloudshell.txt
+sakshishelar110@cloudshell:~ (stately-voltage-422917-m2)$ cd lp--2
+sakshishelar110@cloudshell:~/lp--2 (stately-voltage-422917-m2)$ ls
+p2.py
+sakshishelar110@cloudshell:~/lp--2 (stately-voltage-422917-m2)$ python p2.py
+Please select operation -
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+Select operations form 1, 2, 3, 4 :1
+Enter first number: 23
+Enter second number: 54
+23 + 54 = 77
+sakshishelar110@cloudshell:~/lp--2 (stately-voltage-422917-m2)$ rm -rf lp--2
+sakshishelar110@cloudshell:~/lp--2 (stately-voltage-422917-m2)$ cd/
+-bash: cd/: No such file or directory
+sakshishelar110@cloudshell:~/lp--2 (stately-voltage-422917-m2)$ cd\
+> 
+sakshishelar110@cloudshell:~ (stately-voltage-422917-m2)$ rm -rf lp--2
+sakshishelar110@cloudshell:~ (stately-voltage-422917-m2)$ ls
+README-cloudshell.txt
+sakshishelar110@cloudshell:~ (stately-voltage-422917-m2)$ 
